@@ -1,6 +1,6 @@
 2 methods to perform checks for common EDRs installed on a MacOS system. 
 
-edrcheck.swift uses Cocoa to avoid launching a new process and using command_exec. 
+edrcheck.swift uses NSWORKSPACE to avoid launching a new process and using command_exec. 
 
 edrcheckcmdline.swift uses the same methods as my command_exec to launch a process and run command line commands to perform the check.
 
